@@ -1,0 +1,8 @@
+nombre = input("Cuál es tu nombre?")
+edad = input("Cuántos años tienes?")
+apellido = input("Cuál es tu apellido?")
+datos= (nombre, edad, apellido)
+print(type(datos))
+print(datos)
+print(nombre, edad, apellido)
+#print("Hola " + nombre + " " + apellido + ", tienes " + edad + " años.")
